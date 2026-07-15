@@ -164,11 +164,12 @@ export function Footer() {
 
         {/* Bottom Credits */}
         <div className="flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-grey space-y-4 sm:space-y-0">
-          <p>
-            © {currentYear} SK Cleaning Solutions. All rights reserved. 
-            <span className="mx-2">|</span> 
-            Designed & Developed by <a href="https://astrads.com.au" target="_blank" rel="noopener noreferrer" className="hover:text-secondary underline decoration-secondary/35 transition-colors font-semibold">Astra Digital Solutions</a>
-          </p>
+          <div className="text-center sm:text-left space-y-1">
+            <p>© {currentYear} SK Cleaning Solutions. All rights reserved.</p>
+            <p>
+              Designed & Developed by <a href="https://astrads.com.au" target="_blank" rel="noopener noreferrer" className="hover:text-secondary underline decoration-secondary/35 transition-colors font-semibold">Astra Digital Solutions</a>
+            </p>
+          </div>
           <div className="flex space-x-6">
             <Link href="/privacy-policy" className="hover:text-secondary transition-colors">Privacy Policy</Link>
             <Link href="/terms-of-service" className="hover:text-secondary transition-colors">Terms of Service</Link>
