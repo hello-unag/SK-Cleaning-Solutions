@@ -60,23 +60,23 @@ export default function ContactPage() {
               {/* Detail Blocks */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 
-                <Card className="p-6">
+                <Card className="p-5 lg:p-4 xl:p-6">
                   <div className="flex items-center space-x-3.5 text-secondary-dark mb-3">
                     <Phone className="w-5 h-5" aria-hidden="true" />
                     <h3 className="text-sm font-bold uppercase tracking-wider text-primary font-heading">Call Support</h3>
                   </div>
-                  <a href="tel:0489143310" className="text-base font-bold text-primary hover:text-secondary-dark duration-300" aria-label="Call SK Cleaning Solutions at 0489 143 310">
+                  <a href="tel:0489143310" className="text-sm sm:text-base lg:text-sm xl:text-base font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Call SK Cleaning Solutions at 0489 143 310">
                     0489 143 310
                   </a>
                   <p className="text-xs text-neutral-grey mt-1">Mon-Sat: 7:00 AM - 6:00 PM</p>
                 </Card>
 
-                <Card className="p-6">
+                <Card className="p-5 lg:p-4 xl:p-6">
                   <div className="flex items-center space-x-3.5 text-secondary-dark mb-3">
                     <Mail className="w-5 h-5" aria-hidden="true" />
                     <h3 className="text-sm font-bold uppercase tracking-wider text-primary font-heading">Email Inquiries</h3>
                   </div>
-                  <a href="mailto:info@skcleaningsolutions.com.au" className="text-sm font-bold text-primary hover:text-secondary-dark duration-300 break-all" aria-label="Email SK Cleaning Solutions at info@skcleaningsolutions.com.au">
+                  <a href="mailto:info@skcleaningsolutions.com.au" className="text-xs sm:text-sm lg:text-[11.5px] xl:text-sm font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Email SK Cleaning Solutions at info@skcleaningsolutions.com.au">
                     info@skcleaningsolutions.com.au
                   </a>
                   <p className="text-xs text-neutral-grey mt-1">Expect a reply in 2 hours</p>
