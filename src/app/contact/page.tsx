@@ -65,7 +65,7 @@ export default function ContactPage() {
                     <Phone className="w-5 h-5" aria-hidden="true" />
                     <h3 className="text-sm font-bold uppercase tracking-wider text-primary font-heading">Call Support</h3>
                   </div>
-                  <a href="tel:0489143310" className="text-sm sm:text-base lg:text-sm xl:text-base font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Call SK Cleaning Solutions at 0489 143 310">
+                  <a href="tel:0489143310" className="text-xs sm:text-sm lg:text-xs xl:text-sm font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Call SK Cleaning Solutions at 0489 143 310">
                     0489 143 310
                   </a>
                   <p className="text-xs text-neutral-grey mt-1">Mon-Sat: 7:00 AM - 6:00 PM</p>
@@ -76,7 +76,7 @@ export default function ContactPage() {
                     <Mail className="w-5 h-5" aria-hidden="true" />
                     <h3 className="text-sm font-bold uppercase tracking-wider text-primary font-heading">Email Inquiries</h3>
                   </div>
-                  <a href="mailto:info@skcleaningsolutions.com.au" className="text-xs sm:text-sm lg:text-[11.5px] xl:text-sm font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Email SK Cleaning Solutions at info@skcleaningsolutions.com.au">
+                  <a href="mailto:info@skcleaningsolutions.com.au" className="text-xs sm:text-sm lg:text-xs xl:text-sm font-bold text-primary hover:text-secondary-dark duration-300 block" aria-label="Email SK Cleaning Solutions at info@skcleaningsolutions.com.au">
                     info@skcleaningsolutions.com.au
                   </a>
                   <p className="text-xs text-neutral-grey mt-1">Expect a reply in 2 hours</p>
