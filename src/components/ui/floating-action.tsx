@@ -30,7 +30,7 @@ export function FloatingAction() {
       animate={{ opacity: 1, scale: 1 }}
       whileHover={{ scale: 1.1, y: -2 }}
       whileTap={{ scale: 0.9 }}
-      className="pointer-events-auto fixed bottom-36 right-6 z-40 flex md:hidden items-center justify-center w-12 h-12 rounded-full bg-emerald-600 text-white shadow-premium hover:shadow-premium-hover hover:bg-emerald-700 cursor-pointer focus:outline-none"
+      className="pointer-events-auto fixed bottom-48 right-6 z-40 flex md:hidden items-center justify-center w-12 h-12 rounded-full bg-emerald-600 text-white shadow-premium hover:shadow-premium-hover hover:bg-emerald-700 cursor-pointer focus:outline-none"
       title="Chat on WhatsApp"
     >
       <WhatsAppIcon className="w-5 h-5" />
